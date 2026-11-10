@@ -28,7 +28,6 @@
                 </div>
                 <div class="flex flex-wrap justify-between gap-3 border-t border-white/25 pt-4 text-[11px] text-white/75">
                     <span>Anggota sejak {{ $member['joined'] }}</span>
-                    <span>{{ $member['location'] }}</span>
                 </div>
             </div>
 
