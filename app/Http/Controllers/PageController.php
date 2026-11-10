@@ -19,6 +19,7 @@ class PageController extends Controller
         $username = $this->validatedUsername($request);
         $equipment = $this->equipment();
         $summary = $this->equipmentSummary($equipment);
+        'location' => 'Jember, Jawa Timur',
 
         return view('dashboard', [
             'activePage' => 'dashboard',
@@ -67,7 +68,6 @@ class PageController extends Controller
                 'type' => 'Pelanggan reguler',
                 'joined' => 'November 2026',
                 'rentals' => 4,
-                'location' => 'Sukamaju, Jawa Barat',
             ],
         ]);
     }
