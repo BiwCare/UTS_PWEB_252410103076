@@ -27,7 +27,6 @@ class PageController extends Controller
             'categories' => $summary['categories'],
             'availableUnits' => $summary['availableUnits'],
             'equipmentTypes' => $summary['equipmentTypes'],
-            'location' => 'Jember, Jawa Timur',
         ]);
     }
 
